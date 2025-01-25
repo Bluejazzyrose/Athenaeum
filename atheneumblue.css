@@ -1,0 +1,38 @@
+/*Jasmine Frye*/
+/*Define The Mind Typology Stylesheet*/
+
+body	{font-size: 18px;
+		background-color: #19516F;
+		color: #DAEAE4;}
+
+header	{margin-bottom: 0;
+		text-shadow: 3px 3px #511F58;
+		text-align: center;}
+
+main	{margin-left:  75px;
+		margin-right: 200px;
+		margin-bottom: 100px;}
+
+nav	a	{font-weight: bold;
+		font-style: italic;
+		text-decoration: none;
+		color: #DAEAE4;}
+		
+h1		{margin-bottom: 0;
+		line-height: 400%;
+		text-indent: 1em;}
+
+h2		{text-shadow: 3px 3px #511F58;}
+
+h3		{text-shadow: 3px 3px #511F58;}
+
+.center	{display: flex;
+		justify-content: center;}
+		
+.right	{float: right}
+
+.gallery{display: flex;
+		flex-flow: row-wrap;
+		justify-content: space-around;
+		margin-bottom: 10px;
+		text-align: center;}
