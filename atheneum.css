@@ -4,25 +4,32 @@
 img		{max-width: 100%;
 		height: auto;}
 
-body	{font-size: 18px;
+body	{margin: 50px 0px 50px 100px;
+		font-size: 18px;
 		background-color: #680121;
 		color: #9fd5b3;}
 
-header	{margin-bottom: 0;
-		text-shadow: 3px 3px #3c4552;
+header	{margin-bottom: 50px;
 		text-align: center;}
 
-main	{margin-left:  75px;
-		margin-right: 200px;
+main	{margin-right: 200px;
 		margin-bottom: 100px;}
 
-nav	a	{font-weight: bold;
+nav	a	{padding: 5px 10px;
+		font-weight: bold;
 		font-style: italic;
 		text-decoration: none;
-		color: #9fd5b3;}
+		text-shadow: 3px 3px #3c4552;
+		color: #9fd5b3;}	
+nav a:hover	{background-color: #9fd5b3;
+			border-radius: 15px;
+			padding: 5px 10px;
+			text-decoration: none;
+			text-shadow: none;
+			color: #3c4552;}
 		
-h1		{margin-bottom: 0;
-		line-height: 400%;
+h1		{margin-bottom: 50px;
+		text-shadow: 3px 3px #3c4552;
 		text-indent: 1em;}
 
 h2,h3	{text-shadow: 3px 3px #3c4552;}
@@ -35,10 +42,16 @@ p		{margin-bottom: 20px;}
 .right		{float: right}	/*used to position the jellyfish graphic*/
 
 .gallery	{display: flex;
-			flex-flow: row-wrap;
 			justify-content: space-around;
 			margin-bottom: 10px;
 			text-align: center;}
 .gallery div	{flex-grow: 0;
 				flex-shrink: 0;
 				flex-basis: 24%;}
+				
+.spacebetween	{justify-content: space-around;}
+				
+@media	(max-width: 800px){
+		.center	{flex-direction: column;
+				align-items: center;}
+		}
