@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title>Athenaeum of Epiphanies, Oddities, and Wonders</title>
 		<link rel="stylesheet" href="athenaeum.css">
+		<script src="athenaeum.js" defer></script>
 	</head>
 	
 	<body>
@@ -28,7 +29,7 @@
 			<p>
 				Who doesn&apos;t love animals to some degree? We&apos;re not counting angsty adolescent
 				boys&mdash;they&apos;ll grow out of it. The correct answer is nobody. Many ancient civilizations
-				have worshiped different kinds of animals, and a good amount of modern ones too, a large portion
+				have worshiped different kinds of animals, and a good amount of modern ones too; a large portion
 				of fairy- and folktales center around animals or half animals. This might be because we can&apos;t
 				escape them completely, no matter what we try, and so we might as well welcome them into our lives.
 				It might be because they remind us of the unexplored wilderness and the places man can&apos;t go,
@@ -41,37 +42,91 @@
 			<div class="gallery">
 				<div>
 					<img src="animals/basket_star.png" alt="basket star">
-					<p>Basket Star</p>
+					<button data-dialog-target="basket_star">Basket Star</button>
+					<dialog id="basket_star">
+						<p>
+						You clicked on the button below the Basket Star! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/blue_parrotfish.png" alt="blue parrotfish">
-					<p>Blue Parrotfish</p>
+					<button data-dialog-target="blue_parrotfish">Blue Parrotfish</button>
+					<dialog id="blue_parrotfish">
+						<p>
+						You clicked on the button below the Blue Parrotfish! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/firework_jellyfish.png" alt="firework jellyfish">
-					<p>Firework Jellyfish</p>
+					<button data-dialog-target="firework_jellyfish">Firework Jellyfish</button>
+					<dialog id="firework_jellyfish">
+						<p>
+						You clicked on the button below the Firework Jellyfish!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/kitefin_shark.png" alt="kitefin shark">
-					<p>Kitefin Shark</p>
+					<button data-dialog-target="kitefin_shark">Kitefin Shark</button>
+					<dialog id="kitefin_shark">
+						<p>
+						You clicked on the button below the Kitefin Shark!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
-			</div>
-			<div class="gallery">
 				<div>
 					<img src="animals/ramisyllis.png" alt="ramisyllis multicaudata">
-					<p>Ramisyllis Multicaudata</p>
+					<button data-dialog-target="ramisyllis">Ramisyllis Multicaudata</button>
+					<dialog id="ramisyllis">
+						<p>
+						You clicked on the button below the Ramisyllis Multicaudata!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/sea_pig.png" alt="sea pig">
-					<p>Sea Pig</p>
+					<button data-dialog-target="sea_pig">Sea Pig</button>
+					<dialog id="sea_pig">
+						<p>
+						You clicked on the button below the Sea Pig!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/starfeather.png" alt="strawberry starfeather">
-					<p>Strawberry Starfeather</p>
+					<button data-dialog-target="starfeather">Strawberry Starfeather</button>
+					<dialog id="starfeather">
+						<p>
+						You clicked on the button below the Strawberry Starfeather!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/vaquitas.png" alt="vaquitas">
-					<p>Vaquita</p>
+					<button data-dialog-target="vaquitas">Vaquita</button>
+					<dialog id="vaquitas">
+						<p>
+						You clicked on the button below the Vaquita!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
@@ -80,19 +135,47 @@
 			<div class="gallery">
 				<div>
 					<img src="animals/chevrotain.png" alt="chevrotain">
-					<p>Chevrotain</p>
+					<button data-dialog-target="chevrotain">Chevrotain</button>
+					<dialog id="chevrotain">
+						<p>
+						You clicked on the button below the Chevrotain!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/golden_langur.png" alt="golden langur">
-					<p>Gee&apos;s Golden Langur</p>
+					<button data-dialog-target="golden_langur">Gee&apos;s Golden Langur</button>
+					<dialog id="golden_langur">
+						<p>
+						You clicked on the button below Gee&apos;s Golden Langur!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/nilgiri_marten.png" alt="nilgiri marten">
-					<p>Nilgiri Marten</p>
+					<button data-dialog-target="nilgiri_marten">Nilgiri Marten</button>
+					<dialog id="nilgiri_marten">
+						<p>
+						You clicked on the button below the Nilgiri Marten!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/numbat.png" alt="numbat">
-					<p>Numbat</p>
+					<button data-dialog-target="numbat">Numbat</button>
+					<dialog id="numbat">
+						<p>
+						You clicked on the button below the Numbat!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
@@ -101,19 +184,47 @@
 			<div class="gallery">
 				<div>
 					<img src="animals/cassowary.png" alt="cassowary">
-					<p>Cassowary</p>
+					<button data-dialog-target="cassowary">Cassowary</button>
+					<dialog id="cassowary">
+						<p>
+						You clicked on the button below the Cassowary!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/harpy_eagle.png" alt="harpy eagle">
-					<p>Harpy Eagle</p>
+					<button data-dialog-target="harpy_eagle">Harpy Eagle</button>
+					<dialog id="harpy_eagle">
+						<p>
+						You clicked on the button below the Harpy Eagle!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/kakapo.png" alt="kakapo">
-					<p>Kakapo</p>
+					<button data-dialog-target="kakapo">Kakapo</button>
+					<dialog id="kakapo">
+						<p>
+						You clicked on the button below the Kakapo!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="animals/potoo.png" alt="potoo">
-					<p>Potoo</p>
+					<button data-dialog-target="potoo">Potoo</button>
+					<dialog id="potoo">
+						<p>
+						You clicked on the button below the Potoo!
+						Good job. Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
