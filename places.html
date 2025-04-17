@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title>Athenaeum of Epiphanies, Oddities, and Wonders</title>
 		<link rel="stylesheet" href="athenaeum.css">
+		<script src="athenaeum.js" defer></script>
 	</head>
 	
 	<body>
@@ -36,19 +37,47 @@
 			<div class="gallery">
 				<div>
 					<img src="places/jacobs_well.png" alt="jacobs well">
-					<p>Jacob&apos;s Well</p>
+					<button data-dialog-target="jacobs_well">Jacob&apos;s Well</button>
+					<dialog id="jacobs_well">
+						<p>
+						You clicked on the button below the Jacob&apos;s Well! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="places/sailing_stones.png" alt="sailing stones">
-					<p>Sailing Stones</p>
+					<button data-dialog-target="sailing_stones">Sailing Stones</button>
+					<dialog id="sailing_stones">
+						<p>
+						You clicked on the button below the Sailing Stones! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="places/thors_well.png" alt="thors well">
-					<p>Thor&apos;s Well</p>
+					<button data-dialog-target="thors_well">Thor&apos;s Well</button>
+					<dialog id="thors_well">
+						<p>
+						You clicked on the button below the Thor&apos;s Well! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
 					<img src="places/firefall.png" alt="yosemite firefall">
-					<p>Yosemite Firefall</p>
+					<button data-dialog-target="firefall">Yosemite Firefall</button>
+					<dialog id="firefall">
+						<p>
+						You clicked on the button below the Yosemite Firefall! Good job.
+						Eventually this will do something cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
