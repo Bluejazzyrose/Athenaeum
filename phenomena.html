@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title>Athenaeum of Epiphanies, Oddities, and Wonders</title>
 		<link rel="stylesheet" href="athenaeum.css">
+		<script src="athenaeum.js" defer></script>
 	</head>
 	
 	<body>
@@ -29,87 +30,113 @@
 				To be filled out.
 			</p>
 			
-			<h3>Aquatic Creatures</h3>
+			<h3>Clouds</h3>
 			<div class="gallery">
 				<div>
-					<img src="basket_star.png" alt="basket star">
-					<p>Basket Star<br>not an octopus</p>
+					<img src="phenomena/asperitas.png" alt="asperitas clouds">
+					<button data-dialog-target="asperitas">Asperitas</button>
+					<dialog id="asperitas">
+						<p>
+						Rare, wave-like clouds that look like a rough sea from below.
+						Though the formation itself does not produce rainfall, asperitas
+						have been linked to thunderstorms, often occurring after one.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="blue_parrotfish.png" alt="blue parrotfish">
-					<p>Blue Parrotfish<br>look at those lips!</p>
-				</div>
-				<div>
-					<img src="firework_jellyfish.png" alt="firework jellyfish">
-					<p>Firework Jellyfish<br>lights up the deep</p>
-				</div>
-				<div>
-					<img src="kitefin_shark.png" alt="kitefin shark">
-					<p>Kitefin Shark<br>it sees everything</p>
-				</div>
-			</div>
-			<div class="gallery">
-				<div>
-					<img src="ramisyllis.png" alt="ramisyllis multicaudata">
-					<p>Ramisyllis Multicaudata<br>1000 sterns for one bow</p>
-				</div>
-				<div>
-					<img src="sea_pig.png" alt="sea pig">
-					<p>Sea Pig<br>creepy crawly in the sea</p>
-				</div>
-				<div>
-					<img src="starfeather.png" alt="strawberry starfeather">
-					<p>Strawberry Starfeather<br>it&apos;s a... starfish?</p>
-				</div>
-				<div>
-					<img src="vaquitas.png" alt="vaquitas">
-					<p>Vaquita<br>happy to be alive!</p>
-				</div>
-			</div>
-			<br>
-			
-			<h3>Furry Beasts</h3>
-			<div class="gallery">
-				<div>
-					<img src="chevrotain.png" alt="chevrotain">
-					<p>Chevrotain<br>mouse deer, with fangs</p>
-				</div>
-				<div>
-					<img src="golden_langur.png" alt="golden langur">
-					<p>Gee&apos;s Golden Langur<br>has amazing hair</p>
-				</div>
-				<div>
-					<img src="nilgiri_marten.png" alt="nilgiri marten">
-					<p>Nilgiri Marten<br>golden underneath</p>
-				</div>
-				<div>
-					<img src="numbat.png" alt="numbat">
-					<p>Numbat<br>its tongue is so long!</p>
+					<img src="phenomena/lenticular.png" alt="lenticular clouds">
+					<button data-dialog-target="lenticular">Lenticular</button>
+					<dialog id="lenticular">
+						<p>
+						Stationary, lens-shaped clouds that form in the troposphere.
+						They are often seen over mountains, hills, or tall buildings.
+						They used to be, and probably still are, often mistaken for flying saucers.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div><div>
+					<img src="phenomena/mammatus.png" alt="mammatus">
+					<button data-dialog-target="mammatus">Mammatus</button>
+					<dialog id="mammatus">
+						<p>
+						Pouch-shaped clouds that hang from the base of a cloud.
+						A sign that severe weather, like thunderstorms, may be
+						approaching or passing. They are most visible when the
+						sun is low in the sky and they are usually formed in warm months.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div><div>
+					<img src="phenomena/morning_glory.png" alt="morning glory">
+					<button data-dialog-target="morning_glory">Morning Glory</button>
+					<dialog id="morning_glory">
+						<p>
+						Being one of the rarest types of clouds, morning glory clouds
+						only predictably form in Australia. They, as their name suggests,
+						mostly only form in the morning and disappear when the day gets warmer.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
 			
-			<h3>Birds</h3>
+			<h3>Celestial</h3>
 			<div class="gallery">
 				<div>
-					<img src="cassowary.png" alt="cassowary">
-					<p>Cassowary<br>the bird from <i>Up</i></p>
+					<img src="phenomena/aurora.png" alt="aurora">
+					<button data-dialog-target="aurora">Northern &amp; Southern Lights</button>
+					<dialog id="aurora">
+						<p>
+						The aurora borealis, also known as the northern lights,
+						is visible from the Arctic, including Alaska, Canada,
+						Iceland, and Russia. The aurora australis, also known as
+						the southern lights, is visible from Antarctica,
+						South Africa, Australasia, and the Southern Cone.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="harpy_eagle.png" alt="harpy eagle">
-					<p>Harpy Eagle<br>as tall as a man</p>
-				</div>
-				<div>
-					<img src="kakapo.png" alt="kakapo">
-					<p>Kakapo<br>such chubby cheeks!</p>
-				</div>
-				<div>
-					<img src="potoo.png" alt="potoo">
-					<p>Potoo<br>also the Ghost Owl</p>
+					<img src="phenomena/fire_rainbows.png" alt="fire rainbows">
+					<button data-dialog-target="fire_rainbows">Fire Rainbows</button>
+					<dialog id="fire_rainbows">
+						<p>
+						Also known as a circumhorizontal arc, fire rainbows are a colorful,
+						shimmering band in the sky that occurs when sunlight passes through
+						ice crystals in cirrus clouds. They are not true rainbows nor related
+						to fire. They can be seen from hundreds of miles away and are visible for hours.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div><div>
+					<img src="phenomena/light_pillars.png" alt="light pillars">
+					<button data-dialog-target="light_pillars">Light Pillars</button>
+					<dialog id="light_pillars">
+						<p>
+						A striking optical phenomenon that occurs when light
+						is refracted by ice crystals in the air. They appear
+						as vertical beams of light that extend from a light
+						source, such as streetlights or the sun. Light pillars
+						are most likely to occur on very cold, humid nights with little wind.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div><div>
+					<img src="phenomena/moonbow.png" alt="moonbow">
+					<button data-dialog-target="moonbow">Moonbow</button>
+					<dialog id="moonbow">
+						<p>
+						A rare rainbow caused by light from the moon. They are faint
+						and sort of boring looking because the moon gives barely any
+						light compared to the sun, but it sure sounds cool.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 			</div>
 			<br>
-			<!--yet to do indian purple frog, and bats (ghost-faced, visored)-->
 		</main>
 	</body>
 </html>
