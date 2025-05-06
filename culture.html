@@ -6,6 +6,7 @@
 		<meta charset="utf-8">
 		<title>Athenaeum of Epiphanies, Oddities, and Wonders</title>
 		<link rel="stylesheet" href="athenaeum.css">
+		<script src="athenaeum.js" defer></script>
 	</head>
 	
 	<body>
@@ -26,90 +27,133 @@
 		<main>
 			<h2>Folk Tales by the Fireside</h2>
 			<p>
-				To be filled out.
+				Of all the things in this baffling world, humans are perhaps the most so.
+				Therefore, the crazy things our minds cook up should probably be expected,
+				but we still seem to surprise ourselves quite frequently. The things humans
+				think of can be beautiful, disturbing, and everything in between,
+				but all of it contributes to what we call culture.
+			</p>
+			<p>
+				Culture can come in the form of traditions, beliefs, behavior&mdash;even clothing.
+				Let’s take a look at some of the more bizarre products of culture.
 			</p>
 			
-			<h3>Aquatic Creatures</h3>
+			<h3>Creatures of Folklore</h3>
 			<div class="gallery">
 				<div>
-					<img src="basket_star.png" alt="basket star">
-					<p>Basket Star<br>not an octopus</p>
+					<img src="culture/adaro.png" alt="adaro">
+					<button data-dialog-target="adaro">Adaro</button>
+					<dialog id="adaro">
+						<p>
+						In the mythology of the Solomon Islands,
+						Adaro are both ghosts and elemental spirits,
+						with a sharp fin atop their head. They are said
+						to be created by the sun dancing on the waves,
+						and are associated with rainbows.
+						They can shoot deadly projectiles,
+						sometimes poison water, sometimes poison fish.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="blue_parrotfish.png" alt="blue parrotfish">
-					<p>Blue Parrotfish<br>look at those lips!</p>
+					<img src="culture/aigamuxa.png" alt="aigamuxa">
+					<button data-dialog-target="aigamuxa">Aigamuxa</button>
+					<dialog id="aigamuxa">
+						<p>
+						Also known as bushmen. Its main diet is humans,
+						which it eats with its extremely elongated teeth.
+						They are said to target lone desert travelers at night.
+						The monster is said to have its eyes on its feet,
+						meaning that it cannot see as it hunts. In order to see,
+						it must stand on its hands or head, or lie in the sand.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="firework_jellyfish.png" alt="firework jellyfish">
-					<p>Firework Jellyfish<br>lights up the deep</p>
+					<img src="culture/blemmyae.png" alt="blemmyae">
+					<button data-dialog-target="blemmyae">Blemmyae</button>
+					<dialog id="blemmyae">
+						<p>
+						Greek creatures that are missing a head and wear their faces
+						on their chest. Said to inhabit remote parts of the world.
+						They most likely came from a mistranslation of an insult,
+						from calling a group of people &quot;brainless&quot; to
+						calling them &quot;headless&quot;.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="kitefin_shark.png" alt="kitefin shark">
-					<p>Kitefin Shark<br>it sees everything</p>
-				</div>
-			</div>
-			<div class="gallery">
-				<div>
-					<img src="ramisyllis.png" alt="ramisyllis multicaudata">
-					<p>Ramisyllis Multicaudata<br>1000 sterns for one bow</p>
-				</div>
-				<div>
-					<img src="sea_pig.png" alt="sea pig">
-					<p>Sea Pig<br>creepy crawly in the sea</p>
-				</div>
-				<div>
-					<img src="starfeather.png" alt="strawberry starfeather">
-					<p>Strawberry Starfeather<br>it&apos;s a... starfish?</p>
+					<img src="culture/hitostume_kozo.png" alt="hitostume-kozo">
+					<button data-dialog-target="hitostume_kozo">Hitostume-kozo</button>
+					<dialog id="hitostume_kozo">
+						<p>
+						A Y&omacr;kai &lpar;supernatural apparition&rpar; of Japan
+						that takes on the appearance of a bald-headed child with one
+						eye in the center of its forehead, similar to a cyclops. They
+						generally do not cause any injury, are said to suddenly appear
+						and surprise people, and are a comparatively harmless type of y&omacr;kai.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
 				<div>
-					<img src="vaquitas.png" alt="vaquitas">
-					<p>Vaquita<br>happy to be alive!</p>
+					<img src="culture/kappa.png" alt="kappa">
+					<button data-dialog-target="kappa">Kappa</button>
+					<dialog id="kappa">
+						<p>
+						Or river children. Typically described as  human-like beings with
+						webbed hands and feet and turtle-like carapaces on their backs. A
+						depression on the head retains water, and if this is damaged or its
+						liquid is lost, a kappa becomes severely weakened. They are partial
+						to cucumbers and sumo-wrestling. Dangerous but not evil.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
 				</div>
-			</div>
+				<div>
+					<img src="culture/myrmecoleon.png" alt="myrmecoleon">
+					<button data-dialog-target="myrmecoleon">Myrmecoleon</button>
+					<dialog id="myrmecoleon">
+						<p>
+						A hybrid between an ant and a lion. Most likely derived from an error in
+						the Septuagint version of the book of Job. An alternate, less interesting
+						interpretation of the Myrmecoleon is a lion of ants, or a very large ant.
+						But that&apos;s no fun, so we&apos;ll ignore it.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div>
+				<div>
+					<img src="culture/nuckelavee.png" alt="nuckelavee">
+					<button data-dialog-target="nuckelavee">Nuckelavee</button>
+					<dialog id="nuckelavee">
+						<p>
+						A skinless, horse-like demon with a man&apos;s torso attached to its back
+						from Scottish folklore that brings death and disease. It&apos;s said to live in
+						the sea and emerge onto land to cause havoc. It stalks its prey for days,
+						appearing in the distance to cause fear and panic.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div>
+				<div>
+					<img src="culture/shj.png" alt="spring-heeled jack">
+					<button data-dialog-target="shj">Spring-heeled Jack</button>
+					<dialog id="shj">
+						<p>
+						An entity in English folklore, His bizarre appearance and ability to
+						make extraordinary leaps made him quite popular. Jack was described
+						as having a frightful appearance, with clawed hands, and eyes of red
+						flames. He was tall and thin, with the appearance of a gentleman.
+						Several reports mention that he could breathe out blue and white flames.
+						</p>
+						<button data-close-dialog>Close</button>
+					</dialog>
+				</div>
 			<br>
-			
-			<h3>Furry Beasts</h3>
-			<div class="gallery">
-				<div>
-					<img src="chevrotain.png" alt="chevrotain">
-					<p>Chevrotain<br>mouse deer, with fangs</p>
-				</div>
-				<div>
-					<img src="golden_langur.png" alt="golden langur">
-					<p>Gee&apos;s Golden Langur<br>has amazing hair</p>
-				</div>
-				<div>
-					<img src="nilgiri_marten.png" alt="nilgiri marten">
-					<p>Nilgiri Marten<br>golden underneath</p>
-				</div>
-				<div>
-					<img src="numbat.png" alt="numbat">
-					<p>Numbat<br>its tongue is so long!</p>
-				</div>
-			</div>
-			<br>
-			
-			<h3>Birds</h3>
-			<div class="gallery">
-				<div>
-					<img src="cassowary.png" alt="cassowary">
-					<p>Cassowary<br>the bird from <i>Up</i></p>
-				</div>
-				<div>
-					<img src="harpy_eagle.png" alt="harpy eagle">
-					<p>Harpy Eagle<br>as tall as a man</p>
-				</div>
-				<div>
-					<img src="kakapo.png" alt="kakapo">
-					<p>Kakapo<br>such chubby cheeks!</p>
-				</div>
-				<div>
-					<img src="potoo.png" alt="potoo">
-					<p>Potoo<br>also the Ghost Owl</p>
-				</div>
-			</div>
-			<br>
-			<!--yet to do indian purple frog, and bats (ghost-faced, visored)-->
 		</main>
 	</body>
 </html>
